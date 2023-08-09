@@ -65,7 +65,7 @@ function draw() {
       moveX === 448 && moveY === 320) {
     rect(160, 160, 256, 256);
     textSize(35);
-    text('DEFEAT', 225, 300);
+    text('DEFEAT', 220, 300);
     button = createButton('RESTART');
     button.mousePressed(reset);
     noLoop();
