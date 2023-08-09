@@ -51,7 +51,7 @@ function draw() {
   if (moveX === size * 8 && moveY === size * 8) {
     rect(160, 160, 256, 256);
     textSize(35);
-    text('VICTORY', 230, 300);
+    text('VICTORY', 210, 300);
     button = createButton('RESTART');
     button.mousePressed(reset);
     noLoop();
